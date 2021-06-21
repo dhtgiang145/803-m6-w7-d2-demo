@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
   Outlet,
+  Link,
   useParams,
 } from "react-router-dom";
 import "./App.css";
@@ -37,7 +38,7 @@ function Home() {
   return (
     <div style={{ padding: 20 }}>
       <h2>Home View</h2>
-      <p>Test homw view</p>
+      <p>Test home view</p>
     </div>
   );
 }
